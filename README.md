@@ -94,6 +94,9 @@ website: "https://github.com/therealdamt"
 size: 0
 ```
 
+### Why use this?
+Well, through this you store the data from the config into the ram of the server. This way you don't have to go through the config every time you need to get a value. This helps to organize everything and all that needs to be done is just to insert the path. This is highly recommeneded to be used in all your projects since it can actually help make a difference in many situaions. If you'd like to reload the config, just use the load method again 💯!
+
 ### Contact Information
 
 * [Website](https://damt.xyz)
