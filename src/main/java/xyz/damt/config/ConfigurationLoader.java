@@ -31,10 +31,10 @@ public class ConfigurationLoader {
 
             field.setAccessible(true);
 
-            if (field.getAnnotation(ConfigProperty.class) == null)
-                return;
-
             ConfigProperty configProperty = field.getAnnotation(ConfigProperty.class);
+
+            if (configProperty == null)
+                return;
 
             if (!configProperty.config().equals(yamlConfiguration.getName().replace(".yml", "")))
                 return;
