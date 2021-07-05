@@ -1,5 +1,5 @@
 # ConfigurationLoader
-Smiple but advanced Config Loader, uses reflection.
+Simple but advanced Config Loader uses reflection.
 
 ### Dependecy
 
